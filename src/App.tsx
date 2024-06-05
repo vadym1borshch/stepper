@@ -1,12 +1,15 @@
-import React from 'react';
-import './App.css';
+import React from 'react'
+import './AppStyle'
+import { Stepper } from './Stepper/Stepper'
+import { Box } from '@mui/material'
+import { style } from './AppStyle'
 
 function App() {
   return (
-    <div className="App">
-      content
-    </div>
-  );
+    <Box sx={style}>
+      <Stepper />
+    </Box>
+  )
 }
 
-export default App;
+export default App
